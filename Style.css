@@ -94,7 +94,6 @@ body{
 }
     
 .map iframe{
-  pointer-events: none;
   width:100%;
   border:none;
  }
@@ -128,4 +127,4 @@ body{
 }
 
 i{color:rgb(202, 166, 227);}
- 
+
