@@ -1,0 +1,131 @@
+
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+} 
+
+.contactus-one {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.navbar{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.btn{
+  font-size: 12px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.TituloA{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.carousel { 
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+ .card-deck { 
+  margin-right: -15px;
+  margin-left: -15px;}
+
+#Info div { 
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+#Info { 
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.cubo{
+  background-color: rgb(255, 205, 184, 0.5);
+  color: black;
+  margin-bottom: 2vw;
+  font-family: 'PT Sans Caption', sans-serif;}
+
+.pinky {
+  background-color: rgb(255, 205, 184);
+}
+
+.blue{
+  background-color: rgb(169, 229, 227);
+}
+
+.blue2{
+  background-color: rgb(190, 229, 227);
+}
+
+.Orange{
+  background-color: rgb(232, 186, 134);
+}
+
+.grape{
+  background-color: rgb(202, 166, 227);
+}
+
+.Intensorosa{ background-color: rgb(248, 126, 126);}
+
+.TituloA{
+  text-align: center;
+  background-color: rgb(248, 126, 126);
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+#noticias{text-align: center;}
+    
+.blanco {background-color:white;}
+
+.map {
+  -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+    
+.map iframe{
+  pointer-events: none;
+  width:100%;
+  border:none;
+ }
+
+.div-img .text {
+  font-family: 'Open Sans';
+  padding-top: 5px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 0;
+  transition: transfom opacity 1.5s;
+}
+
+.div-img:hover .img {
+   transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+ }
+
+.div-img:hover .text {
+  transform: translate(0px, -20px);
+  opacity: 1;
+}
+
+i{color:rgb(202, 166, 227);}
+ 
