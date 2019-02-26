@@ -494,29 +494,29 @@
             <!--CONTACTO-->
             <div class="contact-block">
               <div class="contact-form pinky">
-                <form class="border border-primary rounded p-2" method="POST" action="mailto:m.mercedes.perea@gmail.com?subject=AdoptaUnGatito"
+                <form class="border border-primary rounded p-2" method="GET" action="mailto:m.mercedes.perea@gmail.com?subject=AdoptaUnGatito"
                   enctype="text/plain">
                   <div class="form-group">
                     <label for="exampleInputText1">Nombre</label>
                     <input type="text" class="form-control" id="exampleInputText1" aria-describedby="emailHelp"
-                      placeholder="Introduce tu nombre">
+                      placeholder="Introduce tu nombre" name="Nombre">
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Correo electronico:</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                      placeholder="Introduce un email">
+                      placeholder="Introduce un email" name="Email">
                     <small id="emailHelp" class="form-text text-muted">Te mantendremos informado</small>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputPassword1">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="Contraseña">
                   </div>
 
                   <div class="form-group">
                     <label for="exampleFormControlSelect1">Cuantos gatitos tienes</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <select class="form-control" id="exampleFormControlSelect1" name="Gatos">
                       <option value="0">--elige una opción</option>
                       <option value="1">0</option>
                       <option value="2">1</option>
@@ -526,10 +526,10 @@
                     </select>
                   </div>
                   <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="Información">
                     <label class="form-check-label" for="exampleCheck1">¿Desea recibir información sobre la protectora?</label>
                   </div>
-                  <button type="submit" class="btn grape">Enviar</button>
+                  <button type="submit" class="btn grape" value="Send">Enviar</button>
                 </form>
               </div>
               <!--Cierra el formulario-->
